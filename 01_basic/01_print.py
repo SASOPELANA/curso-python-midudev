@@ -1,6 +1,7 @@
 # El modulo print() se utiliza para mostrar información en la consola.
 # Es una función incorporada en Python que permite imprimir texto,
 # números u otros tipos de datos.
+
 print("¡Hola Mundo!")
 print("Esto tambein funciona con comillas simples.")
 
@@ -18,3 +19,5 @@ print("Separador", "con", "guion", sep="-")
 # final de la salida.
 print("Esto se imprime", end=" ")
 print("en la misma línea.")
+
+print(25)
