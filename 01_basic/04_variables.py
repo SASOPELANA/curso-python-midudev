@@ -63,3 +63,16 @@ minombredevariable = "todojunto"
 ###
 # Simular constante en Python
 MI_CONSTANTE = 3.14  # UPPER_CASE -> constante
+
+print(" ")
+
+###
+
+# Anotacion en Python
+# Se puede hacer chequeó de tipos de datos
+# para una mejor desarrolló
+is_user_ligges_in: bool = True
+print(is_user_ligges_in)
+
+is_user_ligges_in = 14
+print(is_user_ligges_in)
