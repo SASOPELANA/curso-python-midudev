@@ -29,7 +29,7 @@ print(" ")
 name = 38
 print(type(name))
 
-# Tipado fuerte: Python no realiza conversion de tipado automatico
+# Tipado fuerte: Python no realiza conversión de tipado automático
 # print(10 + "2")  # --> no puedes hacer esto en python
 
 ###
@@ -37,18 +37,18 @@ print(" ")
 
 
 # f-string (Literal de cadena de formato)
-# desde la version Python 3.6
+# desde la versión Python 3.6
 print(f"Hola {my_name}, tengo {age - 1} años.")
 
 ###
-# No recomendado forma de asignar varables
+# No recomendado forma de asignar variables
 name, age, city = "sergio", 36, "Oran"
 
 print(name, age, city)
 
 ###
 print(" ")
-# Convension de nombre de variables
+# Convención de nombre de variables
 # snake_case
 my_name_var = "ok --> varables en snake_case en python --> forma estandar"
 print(my_name_var)
@@ -62,4 +62,4 @@ minombredevariable = "todojunto"
 
 ###
 # Simular constante en Python
-MI_CONSTANTE = 3.14  # UPPER_CASE -> consta nte
+MI_CONSTANTE = 3.14  # UPPER_CASE -> constante
