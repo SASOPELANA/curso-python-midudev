@@ -40,3 +40,13 @@ elif note >= 5:
     print("¡Aprobado!")
 else:
     print("¡Reprobado!")
+
+print("\nCondicionales Múltiples\n")
+
+edad = 25
+tiene_carnet = False
+
+if edad >= 18 and tiene_carnet:
+    print("Puedes conducir un vehículo.")
+else:
+    print("No puedes conducir un vehículo.")
