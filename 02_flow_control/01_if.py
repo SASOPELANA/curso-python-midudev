@@ -50,3 +50,38 @@ if edad >= 18 and tiene_carnet:
     print("Puedes conducir un vehículo.")
 else:
     print("No puedes conducir un vehículo.")
+
+# La ciudad de # San Ramón de la Nueva Orán permite conducir
+# a personas mayores de 18 años o que tengan carnet de conducir
+print(" ")
+if edad >= 18 or tiene_carnet:
+    print("Puede conducir en la ciudad de San Ramón de la Nueva Orán.")
+else:
+    print("No puede conducir en la ciudad de San Ramón de la Nueva Orán.")
+
+print(" ")
+
+# Negacion de una condicion --> operador not
+es_fin_de_semana = False
+if not es_fin_de_semana:
+    print("¡No es fin de semana, a trabajar!")
+
+print("\nAnidar condicionales\n")
+
+edad = 20
+tiene_dinero = True
+
+if edad >= 18:
+    if tiene_dinero:
+        print("Puedes salir a divertirte.")
+    else:
+        print("No tienes dinero para salir.")
+else:
+    print("Puedes salir a divertirte, pero necesitas ser mayor de edad.")
+
+if edad < 18:
+    print("No puedes salir a divertirte, necesitas ser mayor de edad.")
+elif tiene_dinero:
+    print("Puedes salir a divertirte.")
+else:
+    print("Quedate en casa, no tienes dinero para salir.")
