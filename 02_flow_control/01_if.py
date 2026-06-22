@@ -85,3 +85,27 @@ elif tiene_dinero:
     print("Puedes salir a divertirte.")
 else:
     print("Quedate en casa, no tienes dinero para salir.")
+
+print(" ")
+
+numero = 5
+if numero:
+    print("El número es diferente de cero.")
+
+name = "Juan"
+if name:
+    print("El nombre no está vacío.")
+
+numero = 7
+if numero == 3:
+    print("El número es 3.")
+else:
+    print("El número no es igual.")
+
+print("\n ----- Condición Ternaria ----- \n")
+###
+# Es una forma concisa de un if-else, en una linea de codigo.
+# [Codigo se cumple la condicion] if [condicon] else [Codigo si no se cumple]
+edad = 17
+mensaje = "Es mayor de edad" if edad >= 18 else "Es menor de edad"
+print(mensaje)
