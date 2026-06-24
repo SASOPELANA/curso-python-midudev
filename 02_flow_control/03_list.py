@@ -43,3 +43,24 @@ print(" ")
 
 # Acceso a listas de listas
 print(list_5[1][1])  # --> 3
+
+# Slicing (rebanado) de listas
+print("\nRebanado de listas en Python \n")
+list_1 = [1, 2, 3, 4, 5, 6]
+print(list_1[1:5])  # [ 2,3,4,5 ]
+print(list_1[:3])  # [ 1,2,3]
+print(list_1[3:])  # [4, 5, 6]
+print(list_1[:])  # [1, 2, 3, 4, 5, 6]
+
+# list_1[desde:hasta] --> como funciona el rebanado
+# list_1[desde:hasta:paso] --> rebanado con paso
+
+list_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+# paso de dos en dos con rebanado
+print(list_1[::2])
+
+# paso de tres en tres con rebanado
+print(list_1[::3])
+
+# revertir lista
+print(list_1[::-1])  # revierte la lista
