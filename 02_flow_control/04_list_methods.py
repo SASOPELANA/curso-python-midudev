@@ -51,3 +51,30 @@ print(lista1)
 lista1 = ["panda", "gato", "conejo", "tigre", "perro"]
 del lista1[1:3]
 print(lista1)
+
+print(" ")
+
+# Métodos útiles
+print("Ordernar listas modificando la original")
+numbers = [3, 12, 1, 2, 5, 90, 10]
+numbers.sort()
+print(numbers)
+
+print("\nOrdernar listas creando una nueva lista")
+numbers = [3, 12, 1, 2, 5, 90, 10]
+sorter_numbers = sorted(numbers)
+print(sorter_numbers)
+
+print(" ")
+# Ordenar listas de cadena de textos
+print("Ordernar una lista de cadenas de texto (todo minúsculas)\n")
+frutas = ["banana", "pera", "manzana", "uva", "durazno", "naranja"]
+sorted_frutas = sorted(frutas)
+print(sorted_frutas)
+
+print(" ")
+# Ordenar listas de cadena de textos
+print("Ordernar una lista de cadenas de texto (mezclas mayúsculas y minúsculas)\n")
+frutas = ["banana", "Pera", "Manzana", "uva", "durazno", "Naranja"]
+sorted_frutas = sorted(frutas)
+print(sorted_frutas)
