@@ -64,3 +64,24 @@ print(list_1[::3])
 
 # revertir lista
 print(list_1[::-1])  # revierte la lista
+
+print(" ")
+
+# Modificar una lista
+# list_1[110] = 20  # No se puede en python, asignar un valor que no existe
+# print(list_1)
+
+print(" ")
+# Añadir elementos a una lista
+# metodo largo y poco eficiente
+list_1 = list_1 + [4, 5, 6]
+print(list_1)
+
+# metodo corto y eficiente
+list_1 += [4, 5, 6]
+print(list_1)
+
+print(" ")
+# Recuperar longitud de una lista
+
+print("Longitud de la lista", len(list_1))
