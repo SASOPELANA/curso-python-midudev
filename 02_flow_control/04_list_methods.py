@@ -23,7 +23,31 @@ print(lista1)
 lista1.extend([7, 8])
 print(lista1)
 
-# Eliminar elemntos de la lista
-# Eliminar el primer 22 en la aparacion de la lista
+# Eliminar elementos de la lista
+# Eliminar el primer 22 en la aparición de la lista
 lista1.remove(22)
+print(lista1)
+
+# Eliminar el ultimo elemento  de la lista y lo
+# ademas lo devuelve.
+ultimo = lista1.pop()
+print(ultimo)
+print(lista1)
+
+# Eliminar el segundo elemento de la lista
+# (indice 1)
+lista1.pop(1)
+print(lista1)
+
+# otro método para eliminar elementos
+del lista1[-1]
+print(lista1)
+
+# Eliminar todos los elementos de la lista
+lista1.clear()
+print(lista1)
+
+# Eliminar un rango de elementos
+lista1 = ["panda", "gato", "conejo", "tigre", "perro"]
+del lista1[1:3]
 print(lista1)
