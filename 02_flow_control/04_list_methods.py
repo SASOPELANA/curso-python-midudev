@@ -22,3 +22,8 @@ print(lista1)
 # Agregar elementos al final de la lista
 lista1.extend([7, 8])
 print(lista1)
+
+# Eliminar elemntos de la lista
+# Eliminar el primer 22 en la aparacion de la lista
+lista1.remove(22)
+print(lista1)
