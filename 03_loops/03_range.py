@@ -36,3 +36,8 @@ print("\nCrear listas a partir de un rango:\n ")
 nums = range(10)
 list_of_nums = list(nums)
 print(list_of_nums)
+
+print("\n")
+# recorrer un rango con un bucle for
+for _ in range(6):
+    print("Hola mundo")
