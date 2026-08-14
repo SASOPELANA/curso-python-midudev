@@ -83,3 +83,42 @@ print("\nArgumentos por clave y parámetros nombrados: \n")
 
 describir_persona(city="San Ramón de la Nueva Orán", name="Juan Luna", age=33)
 describir_persona(city="Pichanal - Salta", name="Nicolas Perez", age=25)
+
+# Argumentos de longitud de variable (*args)
+print("\nArgumentos de longitud de variable (*args): \n")
+
+
+# dinámicos
+def sumar_numeros(*args):
+    suma = 0
+    for numero in args:
+        suma += numero
+    return suma
+
+
+print(sumar_numeros(1, 2, 3, 4, 5))  # --> 15
+print(sumar_numeros(10, 20, 30))  # --> 60
+print(sumar_numeros(100, 200, 300, 400, 500))  # --> 1500
+
+# Argumentos de longitud de variable (**kwargs)
+# dinámicos
+print("\nArgumentos de longitud de variable (**kwargs): \n")
+
+
+def mostrar_informacion_de(**kwargs):
+    for clave, valor in kwargs.items():
+        print(f"{clave}: {valor}")
+
+
+mostrar_informacion_de(nombre="Juan Luna", edad=33, ciudad="San Ramón de la Nueva Orán")
+print("\n")
+mostrar_informacion_de(
+    nombre="Nicolas Perez", is_aspi_gen=True, ciudad="Pichanal - Salta"
+)
+print("\n")
+mostrar_informacion_de(
+    nombre="Maria Perez",
+    facultad="Ingenieria en Sistemas",
+    ciudad="Salta Capital",
+    edad=22,
+)
