@@ -27,7 +27,15 @@ Curso de Python, dictado por el Youtuber Midudev. En este curso se cubren los fu
 - Ejercicios con soluciones para cada tema
 
 ### 04_logic - Lógica
-- Retos y desafíos de lógica de programación (ej: contar ocurrencias y verificar equilibrio)
+- Diccionarios: pares clave-valor, acceso, `del`, `pop()`, `update()`, `in`, `keys()`, `values()`, `items()`
+- Retos y desafíos de lógica de programación:
+  - Verificar el equilibrio entre Reed Richards y Johnny Storm (contar `R` y `J`)
+  - Sumar los huevos de los dinosaurios carnívoros (números pares) en Jurassic Park
+  - Encontrar los primeros dos números que suman un objetivo (`find_first_sum`)
+  - Simular enfrentamientos entre dos listas (`battle`)
+
+### 05_regex - Expresiones regulares
+- Módulo `re` para trabajar con expresiones regulares
 
 ## Estructura del repositorio
 
@@ -36,7 +44,8 @@ curso-python-midudev/
 ├── 01_basic/            # Fundamentos de Python
 ├── 02_flow_control/     # Condicionales y listas
 ├── 03_loops/            # Bucles, range() y funciones
-├── 04_logic/            # Retos de lógica
+├── 04_logic/            # Diccionarios y retos de lógica
+├── 05_regex/            # Expresiones regulares
 └── README.md
 ```
 
@@ -47,9 +56,11 @@ curso-python-midudev/
 ## Cómo ejecutar los ejemplos
 
 ```bash
-python 01_basic/01_print.py
-python 02_flow_control/01_if.py
-python 03_loops/01_loop_while.py
+python3 01_basic/01_print.py
+python3 02_flow_control/01_if.py
+python3 03_loops/01_loop_while.py
+python3 04_logic/04_dictionaries.py
+python3 05_regex/01_re.py
 ```
 
 Cada archivo es un script independiente que puedes ejecutar por separado para ver su salida y entender los conceptos.
